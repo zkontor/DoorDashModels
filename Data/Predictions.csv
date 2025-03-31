@@ -1,0 +1,101 @@
+regression_model,feature_set,scaler_name,test_RMSE_scaled,test_RMSE_unscaled
+Ridge,full dataset,Standard scaler (Features+Target),1.7814606428146362,2053.936279296875
+Decision Tree,full dataset,Standard scaler (Features+Target),1.8171431835281877,2095.0766204072097
+Random Forest,full dataset,Standard scaler (Features+Target),1.7742962968363873,2045.6762705085148
+XGBoost,full dataset,Standard scaler (Features+Target),1.7552627325057983,2023.731689453125
+Linear Regression,full dataset,Standard scaler (Features+Target),1.7814602851867676,2053.936279296875
+Ridge,full dataset,MinMax scaler (Features+Target),0.036084797233343124,2054.343994140625
+Decision Tree,full dataset,MinMax scaler (Features+Target),0.03629375279609345,2066.2397869205047
+Random Forest,full dataset,MinMax scaler (Features+Target),0.035932067628557225,2045.648688623913
+XGBoost,full dataset,MinMax scaler (Features+Target),0.03550826385617256,2021.5211181640625
+Linear Regression,full dataset,MinMax scaler (Features+Target),0.03607764095067978,2053.93603515625
+Ridge,full dataset,Standard scaler (Features Only),2053.936279296875,2053.936279296875
+Decision Tree,full dataset,Standard scaler (Features Only),2092.2045138055423,2092.2045138055423
+Random Forest,full dataset,Standard scaler (Features Only),2045.676270687314,2045.676270687314
+XGBoost,full dataset,Standard scaler (Features Only),2023.731689453125,2023.731689453125
+Linear Regression,full dataset,Standard scaler (Features Only),2053.936279296875,2053.936279296875
+Ridge,full dataset,MinMax scaler (Features Only),2054.343994140625,2054.343994140625
+Decision Tree,full dataset,MinMax scaler (Features Only),2092.0571054260395,2092.0571054260395
+Random Forest,full dataset,MinMax scaler (Features Only),2045.6486881133153,2045.6486881133153
+XGBoost,full dataset,MinMax scaler (Features Only),2023.731689453125,2023.731689453125
+Linear Regression,full dataset,MinMax scaler (Features Only),2053.93603515625,2053.93603515625
+Ridge,full dataset,Not Scaled,2053.935791015625,2053.935791015625
+Decision Tree,full dataset,Not Scaled,2086.0571682640484,2086.0571682640484
+Random Forest,full dataset,Not Scaled,2045.6526677499119,2045.6526677499119
+XGBoost,full dataset,Not Scaled,2023.731689453125,2023.731689453125
+Linear Regression,full dataset,Not Scaled,2053.93017578125,2053.93017578125
+Ridge,selected_features_40,Standard scaler (Features+Target),1.786652684211731,2059.92236328125
+Decision Tree,selected_features_40,Standard scaler (Features+Target),1.7942836795529655,2068.72073825538
+Random Forest,selected_features_40,Standard scaler (Features+Target),1.7754668586458804,2047.0258706205616
+XGBoost,selected_features_40,Standard scaler (Features+Target),1.7587602138519287,2027.763916015625
+Linear Regression,selected_features_40,Standard scaler (Features+Target),1.786652684211731,2059.922119140625
+Ridge,selected_features_40,MinMax scaler (Features+Target),0.036189571022987366,2060.30859375
+Decision Tree,selected_features_40,MinMax scaler (Features+Target),0.03618424295948997,2060.0052824596432
+Random Forest,selected_features_40,MinMax scaler (Features+Target),0.03595530406291339,2046.9715621550938
+XGBoost,selected_features_40,MinMax scaler (Features+Target),0.03561056777834892,2027.345458984375
+Linear Regression,selected_features_40,MinMax scaler (Features+Target),0.036182790994644165,2059.922119140625
+Ridge,selected_features_40,Standard scaler (Features Only),2059.92236328125,2059.92236328125
+Decision Tree,selected_features_40,Standard scaler (Features Only),2068.720739192362,2068.720739192362
+Random Forest,selected_features_40,Standard scaler (Features Only),2047.025870813437,2047.025870813437
+XGBoost,selected_features_40,Standard scaler (Features Only),2027.763916015625,2027.763916015625
+Linear Regression,selected_features_40,Standard scaler (Features Only),2059.922119140625,2059.922119140625
+Ridge,selected_features_40,MinMax scaler (Features Only),2060.30859375,2060.30859375
+Decision Tree,selected_features_40,MinMax scaler (Features Only),2060.005282829913,2060.005282829913
+Random Forest,selected_features_40,MinMax scaler (Features Only),2046.9715616979468,2046.9715616979468
+XGBoost,selected_features_40,MinMax scaler (Features Only),2027.763916015625,2027.763916015625
+Linear Regression,selected_features_40,MinMax scaler (Features Only),2059.922119140625,2059.922119140625
+Ridge,selected_features_40,Not Scaled,2059.921142578125,2059.921142578125
+Decision Tree,selected_features_40,Not Scaled,2059.970828224575,2059.970828224575
+Random Forest,selected_features_40,Not Scaled,2046.9698368786687,2046.9698368786687
+XGBoost,selected_features_40,Not Scaled,2027.763916015625,2027.763916015625
+Linear Regression,selected_features_40,Not Scaled,2059.919921875,2059.919921875
+Ridge,selected_features_20,Standard scaler (Features+Target),1.787040114402771,2060.369140625
+Decision Tree,selected_features_20,Standard scaler (Features+Target),1.8032222979341928,2079.026525005388
+Random Forest,selected_features_20,Standard scaler (Features+Target),1.7758810229639868,2047.5033816897903
+XGBoost,selected_features_20,Standard scaler (Features+Target),1.7586779594421387,2027.6690673828125
+Linear Regression,selected_features_20,Standard scaler (Features+Target),1.787039875984192,2060.369384765625
+Ridge,selected_features_20,MinMax scaler (Features+Target),0.03619750961661339,2060.7607421875
+Decision Tree,selected_features_20,MinMax scaler (Features+Target),0.0366791297858323,2088.1796841144105
+Random Forest,selected_features_20,MinMax scaler (Features+Target),0.035962842790596715,2047.4007494571174
+XGBoost,selected_features_20,MinMax scaler (Features+Target),0.035623639822006226,2028.089599609375
+Linear Regression,selected_features_20,MinMax scaler (Features+Target),0.03619063273072243,2060.369140625
+Ridge,selected_features_20,Standard scaler (Features Only),2060.369384765625,2060.369384765625
+Decision Tree,selected_features_20,Standard scaler (Features Only),2089.7336029967837,2089.7336029967837
+Random Forest,selected_features_20,Standard scaler (Features Only),2047.5033818844254,2047.5033818844254
+XGBoost,selected_features_20,Standard scaler (Features Only),2027.6690673828125,2027.6690673828125
+Linear Regression,selected_features_20,Standard scaler (Features Only),2060.369384765625,2060.369384765625
+Ridge,selected_features_20,MinMax scaler (Features Only),2060.7607421875,2060.7607421875
+Decision Tree,selected_features_20,MinMax scaler (Features Only),2088.1983705021375,2088.1983705021375
+Random Forest,selected_features_20,MinMax scaler (Features Only),2047.4007490206516,2047.4007490206516
+XGBoost,selected_features_20,MinMax scaler (Features Only),2027.6690673828125,2027.6690673828125
+Linear Regression,selected_features_20,MinMax scaler (Features Only),2060.369140625,2060.369140625
+Ridge,selected_features_20,Not Scaled,2060.37158203125,2060.37158203125
+Decision Tree,selected_features_20,Not Scaled,2062.2941298262554,2062.2941298262554
+Random Forest,selected_features_20,Not Scaled,2047.401183506737,2047.401183506737
+XGBoost,selected_features_20,Not Scaled,2027.6690673828125,2027.6690673828125
+Linear Regression,selected_features_20,Not Scaled,2060.369140625,2060.369140625
+Ridge,selected_features_10,Standard scaler (Features+Target),1.787621259689331,2061.039306640625
+Decision Tree,selected_features_10,Standard scaler (Features+Target),1.788731719336696,2062.31960161067
+Random Forest,selected_features_10,Standard scaler (Features+Target),1.775847512024002,2047.4647452163113
+XGBoost,selected_features_10,Standard scaler (Features+Target),1.7568840980529785,2025.6009521484375
+Linear Regression,selected_features_10,Standard scaler (Features+Target),1.7876211404800415,2061.039306640625
+Ridge,selected_features_10,MinMax scaler (Features+Target),0.03620927408337593,2061.430419921875
+Decision Tree,selected_features_10,MinMax scaler (Features+Target),0.03622437752785379,2062.2901835460616
+Random Forest,selected_features_10,MinMax scaler (Features+Target),0.03596373875656477,2047.451757703172
+XGBoost,selected_features_10,MinMax scaler (Features+Target),0.03557182475924492,2025.1396484375
+Linear Regression,selected_features_10,MinMax scaler (Features+Target),0.03620240464806557,2061.039306640625
+Ridge,selected_features_10,Standard scaler (Features Only),2061.039306640625,2061.039306640625
+Decision Tree,selected_features_10,Standard scaler (Features Only),2062.3573254914613,2062.3573254914613
+Random Forest,selected_features_10,Standard scaler (Features Only),2047.4647454151614,2047.4647454151614
+XGBoost,selected_features_10,Standard scaler (Features Only),2025.6009521484375,2025.6009521484375
+Linear Regression,selected_features_10,Standard scaler (Features Only),2061.039306640625,2061.039306640625
+Ridge,selected_features_10,MinMax scaler (Features Only),2061.430419921875,2061.430419921875
+Decision Tree,selected_features_10,MinMax scaler (Features Only),2062.301197921519,2062.301197921519
+Random Forest,selected_features_10,MinMax scaler (Features Only),2047.4517572776504,2047.4517572776504
+XGBoost,selected_features_10,MinMax scaler (Features Only),2025.6009521484375,2025.6009521484375
+Linear Regression,selected_features_10,MinMax scaler (Features Only),2061.039306640625,2061.039306640625
+Ridge,selected_features_10,Not Scaled,2061.0400390625,2061.0400390625
+Decision Tree,selected_features_10,Not Scaled,2062.2822781854047,2062.2822781854047
+Random Forest,selected_features_10,Not Scaled,2047.4504855277717,2047.4504855277717
+XGBoost,selected_features_10,Not Scaled,2025.6009521484375,2025.6009521484375
+Linear Regression,selected_features_10,Not Scaled,2061.0390625,2061.0390625
